@@ -40,3 +40,5 @@ if uploaded_file is not None:
     cap.release()
     st.subheader("Conteo total por clase detectada")
     st.json(dict(conteo_total))
+
+# App actualizada para forzar redeploy
